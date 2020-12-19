@@ -18,13 +18,13 @@ class DefaultConfigure(object):
     use_gpu = True
     device = 0
 
-    batch_size = 6
+    batch_size = 5
     num_workers = 4
     display = 100
     snapshot = 4000
 
     max_iter = 100000
-    lr = 0.01
+    lr = 0.05
     momentum = 0.9
     weight_decay = 1e-4
 

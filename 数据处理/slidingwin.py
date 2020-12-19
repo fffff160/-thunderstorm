@@ -67,7 +67,7 @@ for label_name in os.listdir(label_path):
                     print("%%%%%%%%%%%%%%%%%%%%%%")
                     for M in range(1,len(radar_data_10)-3):
                         radar = np.concatenate(radar_data_10[M-1:M+4]).reshape(5, 21, 3701, 2801)
-                        data_save = radar[:, :, i:i + box_shape, j:j + box_shape]     #取第几层还是要再看??
+                        data_save = radar[:, :, i:i + box_shape, j:j + box_shape]    
                         # 时间信息
                         t = np.arange(M*6, M*6+5*6, 6).reshape(5, 1, 1, 1)
                         time_arr = t * np.ones((5, 1, 512, 512))

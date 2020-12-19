@@ -22,17 +22,7 @@ class DataSet(data.Dataset):
     def __len__(self):
         return len(self.file_list)
 
-if __name__ == '__main__':
-    data_set = DataSet('/media/data4T_2/lpf/work/test_data/')
-    print(len(data_set))
-    val_loader = data.DataLoader(data_set,
-                            shuffle=True,
-                            batch_size=2,
-                            num_workers=2)
-    print(len(val_loader))
-    for data, label in val_loader:
-        print(data.size())
-        print(label.size())
+
 
         
     
