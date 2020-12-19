@@ -29,7 +29,3 @@ class Parameter():
     radar_start_lon = 70
     radar_end_lon = 137.99
 
-    file_path_guancezhan = 'E:\\work\\new_work\\雷暴大风资料\\观测站数据'
-    file_path_flash = 'E:\\work\\new_work\\雷暴大风资料\\dealed_flash_data'
-    file_path_radar = 'E:\\work\\new_work\\雷暴大风资料\\雷达数据'
-
